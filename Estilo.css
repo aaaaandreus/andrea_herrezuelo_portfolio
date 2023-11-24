@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Spectral&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    cursor: url('Group.svg'), auto;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    line-height: 1.5;
+    color: #622550;
+    background-color: #FFFCFE;
+}
+
+.hero {
+    height: 100vh;
+}
+
+
+
+
+
+.mancha-rosa {
+    transition: 0.3s;
+}
+
+.mancha-rosa:hover {
+    transition: 0.3s;
+    transform: scale(2.0);
+}
+
+.navbar {
+    display: flex;
+    font-size: 24px;
+    margin-right: 80px;
+    gap: 40px;
+    height: fit-content;
+    align-items: center;
+    font-weight: 500;
+}
+
+.navbar-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding-right: 80px;
+    padding-left: 80px;
+    gap: 40px;
+}
+
+.flex {
+    display: flex;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+.presentacion {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.h1 {
+
+    font-size: 40px;
+    font-weight: 500;
+    width: 400px;
+    height: 120px;
+}
+
+.palabra-destacada-mayor {
+    font-weight: 600;
+    color: #FF1FBF
+}
+
+.mas-conocida {
+    width: 757px;
+    height: 72px;
+}
+
+.h2 {
+    color: #FF1FBF;
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 72px;
+}
+
+.h3 {
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+li {
+    height: fit-content;
+}
+
+li a {
+    color: #FF1FBF;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #6BD425;
+}
+
+.li-contacto {
+    border: 2px solid #6BD425;
+    border-radius: 30px;
+    width: fit-content;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.li-contacto:hover {
+    border: 2px solid #FF1FBF;
+}
+
+.botton {
+    display: flex;
+    align-items: center;
+    background-color: #6BD425;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 30px;
+    width: fit-content;
+    height: 47px;
+    font-weight: 500;
+    font-size: 18px;
+    /* margin-top: 40px; */
+
+}
+
+.botton:hover {
+    background-color: #468D17;
+}
+
+.botton a {
+    text-decoration: none;
+    color: #FFFCFE;
+    text-align: center;
+}
+
+.presentacion {
+    margin-left: 226px;
+    margin-top: 64px;
+}
+
+.mas-conocida {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.proyectos-sin-titulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proyecto-1 {
+    flex-direction: column;
+}
+
+.botton-1 {
+    width: 400px;
+    height: 254px;
+    border-radius: 30px;
+    background-image: url(./cinesa\ byn.svg);
+    margin-bottom: 24px;
+}
+
+.botton-1:hover {
+    background-image: url(./cinesa\ color.svg);
+}
+
+.rediseño {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 400px;
+}
+
+.proyecto-2 {
+    flex-direction: column;
+}
+
+.botton-2 {
+    width: 400px;
+    height: 254px;
+    border-radius: 30px;
+    background-image: url(./Frame\ 25.svg);
+
+    margin-bottom: 24px;
+}
+
+.lorem {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 400px;
+}
+
+.proyecto-3 {
+    flex-direction: column;
+}
+
+.botton-3 {
+    width: 400px;
+    height: 254px;
+    border-radius: 30px;
+    background-image: url(./movil\ byn.svg);
+    margin-bottom: 24px;
+}
+
+.botton-3:hover {
+    background-image: url(movil\ color.png);
+}
+
+.mindbite {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 400px;
+}
+
+.palabra-destacada {
+    color: #FF1FBF;
+}
+
+.sobre-mi {
+    margin-bottom: 40px;
+    font-weight: 400;
+    padding-bottom: 250px;
+}
+
+.i-am-andrea {
+    /* width: 723px; */
+    height: 330px;
+    justify-content: space-between;
+    gap: 20px
+}
+
+
+.imagen-andi {
+    height: 400px;
+    width: 500px;
+    background-image: url(./2021-07-27-083820816.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.chapa {
+    flex-direction: column;
+    gap: 30px;
+    width: 723px;
+    height: 330px;
+    align-items: end;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #FF84DC;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 176px;
+}
+
+.p-1 {
+    margin-left: 80px;
+    margin-top: 36px;
+    margin-right: 250px;
+}
+
+
+
+
+
+.dcha {
+    margin-top: 48px;
+    flex-direction: column;
+    gap: 10px;
+    text-align: end;
+    justify-content: end;
+    margin-right: 80px;
+
+}
+
+.contacta-dcha {
+    text-decoration: underline;
+    color: #622550;
+    font-weight: 500;
+}
+
+.footer-info {
+    width: 100%;
+    justify-content: space-between;
+}
